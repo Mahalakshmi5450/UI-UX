@@ -1,0 +1,113 @@
+
+h1 {
+    font-size: 132px;
+    font-weight: bold;
+    color: lightpink;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+h2 {
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(106, 188, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3{
+
+    font-size: 80px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(198, 139, 252);
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+p{
+    font-size: 80px;
+    color: rgb(233, 233, 233);
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-right: 20px;
+    text-align: left;  
+}
+button {
+    size: 45cm;
+    shape-margin: 0cap;
+    shape-outside: -moz-radial-gradient();
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(84, 255, 101);
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 40%;
+
+}
+
+p{
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(251, 168, 192);
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-left: 50;
+    text-align:left;
+    margin-right: 50;
+}
+button:hover {
+
+}
+
+a:link {
+
+}
+
+a:hover {
+
+}
+
+body{
+
+    margin: 20px;
+    height: 280vh; /* To allow scrolling */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+::backdrop {
+    color: rgb(79, 24, 130);
+}
+
+.xyz {  
+    display: -moz-popup;
+    width: 33cm;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    padding-left: 40px;
+
+}
+
+.abc {
+    display: -moz-popup;
+    width: 10cm;
+    margin-left: 450px;
+    margin-right: 20px;
+    align-items: center;
+    padding-left: 40px;
+}
