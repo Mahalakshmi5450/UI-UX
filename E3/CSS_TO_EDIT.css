@@ -1,0 +1,103 @@
+
+/* DIV.LEFT and DIV.RIGHT (THE FLEX CONTAINERS) */
+/* ----------------------------------------------------- */
+
+div.left, 
+div.right {
+    background-color: white;
+    width: 100%;
+    width: 50%;
+    flex-direction: column;
+}
+
+
+
+/* FLEX ITEMS */
+/* ----------------------------------------------------- */
+
+div > div {
+    margin: 2px;
+}
+
+
+/* SECTION 1 */
+/* ----------------------------------------------------- */
+
+#s1 div > div {
+    background-color: lightblue;
+    flex-grow: 1;
+}
+
+#s1 div > div:nth-of-type(4){
+    font-size: 2.2rem;
+   
+}
+
+#s1 div > div:nth-of-type(5){
+    font-size: 1.5rem;
+   
+}
+
+/* SECTION 2 */
+/* ----------------------------------------------------- */
+
+#s2 div > div {
+    background-color: lightgreen;
+    flex-wrap: wrap-reverse;
+    flex-basis: 90px;
+}
+
+
+/* SECTION 3 */
+/* ----------------------------------------------------- */
+#s3 div > div {
+    background-color: lightgrey;
+}
+
+#s3 div > div:nth-of-type(1){
+    flex-basis: 50%;
+}
+
+
+
+/* SECTION 4 */
+/* ----------------------------------------------------- */
+
+#s4 div > div {
+    background-color: yellow;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    media 
+
+}
+
+#s4 div > .left {
+    flex-basis: 47%;
+
+}
+
+#s4 div > .left:nth-last-of-type(1){
+    order: 2;
+}
+
+#s4 div> .right {
+    flex-basis: 25%;
+    width: 50%;
+
+}
+
+#s4 div> .right:last-of-type{
+    order: -2;
+}
+
+article {
+    display: flex;
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+}
