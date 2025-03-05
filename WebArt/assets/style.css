@@ -71,11 +71,12 @@ a:hover {
 body{
     width: 100vw;
     margin: 0;
-    height: 150vh; /* To allow scrolling */
+    height: 100vh; /* To allow scrolling */
     display: flex;
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
+    overflow-y:auto;
     /* background-repeat: ; */
     position: relative;
 }
@@ -86,8 +87,8 @@ video{
     position: fixed;
     top: 0;
     left: 0;
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
     z-index: -1;
     
 }
