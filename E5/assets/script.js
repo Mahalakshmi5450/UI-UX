@@ -64,5 +64,5 @@ box1.style.backgroundColor = "rgb(" + R + "," + G + "," + B + ")";
 
 function chooseColor() {
     let dropdown = document.getElementById('dropdown');
-    box1.style.textInput1,textInput2 = dropdown.value;
+    box1.style.color = dropdown.value;
 }
