@@ -1,0 +1,50 @@
+
+
+
+h2 {
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(244, 236, 236);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: Left;
+    margin-left: 50px;
+}
+
+
+p{
+    font-size: 25px;
+    color: rgb(245, 237, 237);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-left: 50px;
+    text-align:left;
+    margin-right: 25px;
+}
+
+
+body{
+
+    margin: 0;
+    height: 100vh; /* To allow scrolling */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+button{
+    size: 20px;
+    background-color: beige;
+    
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+}
