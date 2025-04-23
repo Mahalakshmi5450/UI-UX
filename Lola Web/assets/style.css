@@ -1,0 +1,355 @@
+/* CSS Resets */
+/* ------------------------------------------------- */
+@font-face {
+    font-family: 'ClashGrotesk-Extralight';
+    src: url('../fonts/ClashGrotesk-Extralight.woff2') format('woff2'),
+         url('../fonts/ClashGrotesk-Extralight.woff') format('woff'),
+         url('../fonts/ClashGrotesk-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashGrotesk-Light';
+    src: url('../fonts/ClashGrotesk-Light.woff2') format('woff2'),
+         url('../fonts/ClashGrotesk-Light.woff') format('woff'),
+         url('../fonts/ClashGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashGrotesk-Regular';
+    src: url('../fonts/ClashGrotesk-Regular.woff2') format('woff2'),
+         url('../fonts/ClashGrotesk-Regular.woff') format('woff'),
+         url('../fonts/ClashGrotesk-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashGrotesk-Medium';
+    src: url('../fonts/ClashGrotesk-Medium.woff2') format('woff2'),
+         url('../fonts/ClashGrotesk-Medium.woff') format('woff'),
+         url('../fonts/ClashGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashGrotesk-Semibold';
+    src: url('../fonts/ClashGrotesk-Semibold.woff2') format('woff2'),
+         url('../fonts/ClashGrotesk-Semibold.woff') format('woff'),
+         url('../fonts/ClashGrotesk-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashGrotesk-Bold';
+    src: url('../fonts/ClashGrotesk-Bold.woff2') format('woff2'),
+         url('../fonts/ClashGrotesk-Bold.woff') format('woff'),
+         url('../fonts/ClashGrotesk-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+  /**
+  * This is a variable font
+  * You can control variable axes as shown below:
+  * font-variation-settings: wght 700.0;
+  *
+  * available axes:
+  'wght' (range from 200.0 to 700.0
+  */
+  @font-face {
+    font-family: 'ClashGrotesk-Variable';
+    src: url('../fonts/ClashGrotesk-Variable.woff2') format('woff2'),
+         url('../fonts/ClashGrotesk-Variable.woff') format('woff'),
+         url('../fonts/ClashGrotesk-Variable.ttf') format('truetype');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  
+  
+  
+
+
+html  {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'ClashGrotesk-Extralight' ;
+  }
+  
+  body  {
+    margin: 0;
+    padding: 10px;
+    height: 100%;   
+    width: 100vw;     
+  }
+  
+  *   { 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+
+body {
+    width: 100vw;
+    height: auto;
+}
+
+
+section {
+    width: 100%;
+    height: 125vh;
+    display: flex;
+    position: relative;
+  }
+
+
+#section0 {
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 125vh;
+    /* background-color: aqua; */
+} 
+.lola {
+    width: 2px;
+    height: auto;
+    padding-left: 20%;
+}
+h1 {
+    font-size: 280px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10%; 
+} 
+
+h1:hover {
+    font-family:sans-serif;
+}
+
+
+#section1 {
+    padding-top: 30%;
+    height: 100%;
+    text-align: justify;
+    padding-left: 45%;
+    padding-right: 5%;
+    align-items: center;
+    font-size: 25px;
+    /* background-color: yellow; */
+}
+.sec1 {
+    /* background-color: red; */
+    height: fit-content;
+}
+
+#section1:hover {
+    font-family: monospace;
+}
+
+
+
+#section2 > div {
+    padding-top: 30%;
+    width: 100%;
+    height: 125vh;
+    text-align: justify;
+    align-items: bottom;
+    font-size: 25px;
+    /* background-color: aquamarine; */
+} 
+#section2 > div > p {
+    /* background-color: crimson; */
+    height: fit-content;
+}
+
+
+
+#section3{
+    padding-top: 30%;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    align-items: center;
+    font-size: 65px;
+    /* background-color: bisque; */
+    padding-bottom: 30%;
+} 
+.sec3 {
+    /* background-color: crimson; */
+    height: auto;
+}
+
+
+
+#section4 > div {
+    padding-top: 30%;
+    height: 100%;
+    text-align: justify;
+    align-items: bottom;
+    align-content: end;
+    padding-right: 55%;
+    padding-left: 10%;
+    /* background-color: aquamarine; */
+}
+#section4 > div > p {
+    /* background-color: crimson; */
+    height: fit-content;
+}
+
+
+
+#section5 > div > p:nth-of-type(2) {
+    background-color: black;
+}
+#section5 > div > p:nth-of-type(2):hover {
+    background-color: rgb(232, 22, 22);
+}
+
+.timeline > .timeline-container.right > .timeline-content > p:nth-of-type(2){
+    background-color: black;
+}
+
+.timeline > .timeline-container.right > .timeline-content >p:nth-of-type(2):hover {
+    background-color: rgb(232, 22, 22);
+}
+
+#section5 > div > p:nth-of-type(3){
+    font-size: 10px;
+}
+#section5 > div {
+    padding-top: 30%;
+    width: 100%;
+    height: 100%;
+    padding-left: 55%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+
+
+#section6 > div {
+    padding-top: 30%;
+    width: 100%;
+    height: 100%;
+    padding-right: 55%;
+    padding-left: 10%;
+    text-align: justify;
+}
+
+
+
+#section7 >div> p {
+    background-color: pink;
+}
+#section7  {
+    padding-top: 30%;
+    width: 100%;
+    height: 125vh;
+    text-align: justify;
+    padding-left: 15%;
+    padding-right:15%;
+}
+#section7  > div> p:nth-of-type(1):hover {
+    background-color: rgb(215, 250, 244);
+} 
+
+/* timeline  */
+* {
+    box-sizing: border-box;
+    font-family: 'ClashGrotesk-Extralight';
+  }
+  
+  .timeline {
+    position: relative;
+    max-width: auto;
+    margin: auto;
+    padding: 40px 0;
+    text-align: justify;
+    align-content:start;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: #000;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+  }
+  
+  .timeline-container {
+    position: relative;
+    width: 50%;
+    /* background-color: yellow; */
+    padding: 40px;
+    margin-top: 500px;
+  }
+  
+  .timeline-container.left {
+    left: 0;
+  }
+  
+  .timeline-container.right {
+    left: 50%;
+  }
+  
+  .timeline-container::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    right: -7px;
+    background-color: white;
+    border: 2px solid #000;
+    top: 40px;
+    border-radius: 50%;
+    z-index: 1;
+    
+  }
+  
+  .timeline-container.right::before {
+    left: -7px;
+  }
+  
+  
+  .timeline-content h2 {
+    margin-top: 0;
+  }
+  
+  .timeline-content img {
+    margin-top: 500px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .timeline-container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+    .timeline-container.right {
+      left: 0;
+    }
+  
+    .timeline-container::before {
+      left: 60px;
+    }
+  
+    .timeline::after {
+      left: 60px;
+    }
+  }
+
+  
