@@ -303,7 +303,7 @@ document.addEventListener("DOMContentLoaded", () => {
     trigger: ".scroll-trigger",
     start: "top center",
     onEnter: () => {
-      document.querySelector(".scroll-trigger").style.background = "red";
+      document.querySelector(".scroll-trigger").style.background = "white";
     }
   });
 
