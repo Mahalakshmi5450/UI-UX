@@ -202,6 +202,7 @@ h1:hover {
 #section4 > div > p {
     /* background-color: crimson; */
     height: fit-content;
+    font-size: 25px;
 }
 
 
@@ -231,6 +232,7 @@ h1:hover {
     padding-left: 55%;
     padding-right: 10%;
     text-align: justify;
+    font-size: 25px;
 }
 
 
@@ -242,6 +244,7 @@ h1:hover {
     padding-right: 55%;
     padding-left: 10%;
     text-align: justify;
+    font-size: 25px;
 }
 
 
